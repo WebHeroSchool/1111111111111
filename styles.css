@@ -167,7 +167,8 @@
 
 
 .main__title {
-	font: 700 66px/87px pt_serif,arial,helvetica,sans-serif;
+	font: 700 66px/87px PT Serif,arial,helvetica,sans-serif;
+	font-family: PT Serif;
 	margin: 0 0 37px 0;
 	color: #000000;
 }
