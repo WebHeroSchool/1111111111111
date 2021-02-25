@@ -181,7 +181,7 @@
 
 .main__description {
 	font: 22px/24px roboto;
-	padding: 0px 18% 38px 0;
+	padding: 3px 18% 38px 0;
 }
 .main__button {
 	font: 500 18px/21px roboto;
@@ -198,6 +198,9 @@
 }
 
 
+@media (max-width: 1367) {
+	
+}
 
 
 @media (max-width: 768px) {
