@@ -32,7 +32,7 @@
 .logo {
 	position: relative;
 	padding-left: 41px;
-	font-family: pt_serifbold;
+	font-family: pt_serifbold,Arial,Helvitica,sans-serif;
 	font-size: 24px;
 	font-weight: bold;
 	line-height: 21px;
@@ -171,7 +171,7 @@
 /*Main content*/
 
 .main {
-	padding: 72px 63% 210px 0px;
+	padding: 72px 63% 210px 0;
 	background: top right no-repeat url("img/mainmg.svg");
 	background-size: 768px;
 }
@@ -240,13 +240,13 @@
 	}
 
 	.main {
-		padding: 9px 56% 212px 0px;
+		padding: 9px 56% 212px 0;
 		background-size: 516px;
 	}
 
 	.main__title {
 		font: bold 50px/66px pt_serifbold, arial, helvetica, sans-serif;
-		margin: 7px 0px 34px 0;
+		margin: 7px 0 34px 0;
 	}
 
 	.main__description {
@@ -291,7 +291,7 @@
 
 	.main__title {
 		margin-bottom: 44px;
-		font-family: pt_serifbold;
+		font-family: pt_serifbold,Arial,Helvitica,sans-serif;
 		font-weight: bold;
 		font-size: 30px;
 		line-height: 40px;
@@ -299,7 +299,7 @@
 
 	.main__description {
 		margin-bottom: 13px;
-		font-family: Roboto;
+		font-family: Roboto,Arial,Helvitica,sans-serif;
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 19px;
@@ -307,7 +307,7 @@
 	}
 
 	.main__button {
-		font-family: Roboto;
+		font-family: Roboto,Arial,Helvitica,sans-serif;
 		font-weight: 500;
 		font-size: 14px;
 		line-height: 16px;
@@ -334,11 +334,11 @@
 
 	.main {
 		background-size: 85%;
-		padding: 74% 0px 0;
+		padding: 74% 0 0;
 	}
 
 	.main__title {
-		font-family: pt_serifbold;
+		font-family: pt_serifbold,Arial,Helvitica,sans-serif;
 		margin: 16px 0 34px 3px;
 		margin-bottom: 27px;
 	}
@@ -403,7 +403,7 @@
 		list-style: none;
 		text-align: center;
 		background-color: #ECEFF1;
-		box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+		box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
 	}
 
 	/* элементы меню */
