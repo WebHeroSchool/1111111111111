@@ -239,6 +239,10 @@
 		margin-right: 27px;
 	}
 
+	.menu__item:before {
+		bottom: -2px;
+	}
+
 	.main {
 		padding: 9px 56% 212px 0;
 		background-size: 516px;
@@ -376,7 +380,7 @@
 		position: absolute;
 		width: 100%;
 		height: 3px;
-		background-color: #616161;
+		background-color: #0056EC;
 	}
 
 	.menu__btn > span::before {
@@ -399,7 +403,7 @@
 		width: 100%;
 		height: 100%;
 		margin: 0;
-		padding: 8px 0;
+		padding: 0;
 		list-style: none;
 		text-align: center;
 		background-color: #ECEFF1;
@@ -409,16 +413,38 @@
 	/* элементы меню */
 	.menu__item {
 		display: block;
-		padding: 12px 24px;
-		color: #333333;
-		font-family: Roboto, sans-serif;
-		font-size: 20px;
-		font-weight: 600;
+		top: 174px;
+		width: 87%;
+		height: 36px;
+		padding: 12px 23px;
+		color: #000000;
+		font-family: Roboto, Arial, Helvitica, sans-serif;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 30px;
+		line-height: 36px;
 		text-decoration: none;
 	}
 
+	.menu__item:before {
+		bottom: -2px;
+		width: 100%;
+	}
+
+	.menu__item:last-child {
+		margin-right: 31px;
+	}
+
 	.menu__item:hover {
-		background-color: #CFD8DC;
+		background-color: #C8DBFB;
+	}
+
+	.menu__item_active::after {
+		display: none;
+	}
+
+	.menu__item:before {
+		display: none;
 	}
 
 	#menu__toggle:checked ~ .menu__btn > span {
