@@ -38,6 +38,7 @@
 	line-height: 21px;
 	width: 58px;
 	height: 28px;
+	cursor: pointer;
 	/* border: dashed 1px red; */
 	/*background: url('img/logo.svg'); */
 }
@@ -131,7 +132,7 @@
 	color: #000;
 	white-space: nowrap;
 	text-decoration: none;
-	transition: opacity .5s;
+	transition: opacity .5s ease-out;
 }
 .menu__item:before, .menu__item:after {
 	content: '';
@@ -363,6 +364,7 @@
 		display: block;
 		position: fixed;
 		visibility: hidden;
+		opacity: 0;
 		top: 0;
 		right: 0;
 		width: 100%;
@@ -429,6 +431,8 @@
 	#menu__toggle:checked ~ .menu {
 		visibility: visible;
 		right: 0;
+		opacity: 1;
+		transition: opacity .5s ease-out;
 	}
 
 	.menu__btn > span,
@@ -527,6 +531,7 @@
 		display: block;
 		position: fixed;
 		visibility: hidden;
+		opacity: 0;
 		top: 0;
 		right: 0;
 		width: 100%;
@@ -593,6 +598,8 @@
 	#menu__toggle:checked ~ .menu {
 		visibility: visible;
 		right: 0;
+		opacity: 1;
+		transition: opacity .5s ease-out;
 	}
 
 	.menu__btn > span,
